@@ -49,9 +49,9 @@ dependencies {
     // Allows control over item selection of both touch and mouse driven selection
     // specifically for selection support in RecyclerView,
     // allowing users to select multiple items using gestures like tap or long-press.
-    implementation("androidx.recyclerview:recyclerview-selection:1.1.0")
+    implementation(libs.androidx.recyclerview.selection)
 
     // This is the core RecyclerView library.
-    implementation("androidx.recyclerview:recyclerview:1.2.1")
+    implementation(libs.androidx.recyclerview)
 
 }
